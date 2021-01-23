@@ -1,0 +1,72 @@
+Model:Sugeno
+NumberOfInputUniverses:2
+Title:FS on x
+Minimum:-5
+Maximum:5
+Resolution:100
+NumberOfFSs: 2
+FuzzySetType:ZFuzzySet
+OriginHashCode:46212239
+Title:Small
+NumberOfParameters:2
+Par0:-2
+Par1:2
+FuzzySetType:SFuzzySet
+OriginHashCode:63220684
+Title:Large
+NumberOfParameters:2
+Par0:-2
+Par1:2
+Title:FS on y
+Minimum:-5
+Maximum:5
+Resolution:100
+NumberOfFSs:2
+FuzzySetType:SigmoidalFuzzySet
+OriginHashCode:51810644
+Title:Large
+NumberOfParameters:2
+Par0:0.374573852249688
+Par1:0
+FuzzySetType:UnaryOperatedFuzzySet
+OperatorType:NegateOperator
+NumberOfParameters:0
+OperandHashCode:51810644
+OriginHashCode:32115247
+Title:Small
+NumberOfOutputUniverses:1
+Title:FS on z
+Minimum:-5
+Maximum:5
+Resolution:100
+NumberOfFSs: 4
+FuzzySetType:SugenoEquition
+OriginHashCode:3
+EquationId:2.1: Z=-X+Y+1
+NumberOfParameters:0
+FuzzySetType:SugenoEquition
+OriginHashCode:4
+EquationId:2.2: Z=-Y+3
+NumberOfParameters:0
+FuzzySetType:SugenoEquition
+OriginHashCode:5
+EquationId:2.3: Z=-X+3
+NumberOfParameters:0
+FuzzySetType:SugenoEquition
+OriginHashCode:6
+EquationId:2.4: Z=X+Y+2
+NumberOfParameters:0
+NumberOfRows:4
+NumberOfCols:3
+FuzzySetHash:46212239
+FuzzySetHash:32115247
+EquationID:3
+FuzzySetHash:46212239
+FuzzySetHash:51810644
+EquationID:4
+FuzzySetHash:63220684
+FuzzySetHash:32115247
+EquationID:5
+FuzzySetHash:63220684
+FuzzySetHash:51810644
+EquationID:6

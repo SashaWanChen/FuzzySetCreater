@@ -1,0 +1,84 @@
+Model:Mamdani
+NumberOfInputUniverses:2
+Title:FS on x
+Minimum:-5
+Maximum:5
+Resolution:100
+NumberOfFSs: 2
+FuzzySetType:ZFuzzySet
+OriginHashCode:1816341
+Title:Small
+NumberOfParameters:2
+Par0:-2
+Par1:2
+FuzzySetType:SFuzzySet
+OriginHashCode:23240469
+Title:Large
+NumberOfParameters:2
+Par0:-2
+Par1:2
+Title:FS on y
+Minimum:-5
+Maximum:5
+Resolution:100
+NumberOfFSs: 2
+FuzzySetType:SigmoidalFuzzySet
+OriginHashCode:60332585
+Title:Large
+NumberOfParameters:2
+Par0:0.374573852249688
+Par1:0
+FuzzySetType:UnaryOperatedFuzzySet
+OperatorType:NegateOperator
+NumberOfParameters:0
+OperandHashCode:60332585
+OriginHashCode:37689768
+Title:Small
+NumberOfOutputUniverses:1
+Title:FS on z
+Minimum:-5
+Maximum:5
+Resolution:100
+NumberOfFSs: 4
+FuzzySetType:BellFuzzySet
+OriginHashCode:14237410
+Title:Small Negative
+NumberOfParameters:3
+Par0:1.5
+Par1:5
+Par2:-1.5
+FuzzySetType:BellFuzzySet
+OriginHashCode:32115247
+Title:Small Positive
+NumberOfParameters:3
+Par0:1.5
+Par1:5
+Par2:1.5
+FuzzySetType:BellFuzzySet
+OriginHashCode:20601768
+Title:Large Negative
+NumberOfParameters:3
+Par0:1.5
+Par1:5
+Par2:-4.5
+FuzzySetType:BellFuzzySet
+OriginHashCode:51198184
+Title:Large Positive
+NumberOfParameters:3
+Par0:1.5
+Par1:5
+Par2:4.5
+NumberOfRows:4
+NumberOfCols:3
+FuzzySetHash:1816341
+FuzzySetHash:37689768
+FuzzySetHash:20601768
+FuzzySetHash:1816341
+FuzzySetHash:60332585
+FuzzySetHash:14237410
+FuzzySetHash:23240469
+FuzzySetHash:37689768
+FuzzySetHash:32115247
+FuzzySetHash:23240469
+FuzzySetHash:60332585
+FuzzySetHash:51198184
