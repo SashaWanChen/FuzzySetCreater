@@ -16,3 +16,5 @@ Following fuzzy sets can be create in the Universe:
 12. Singleton Fuzzy Set
 13. Step Up Fuzzy Set
 14. Step Down Fuzzy Set
+#Run
+Download the file and open "FuzzySetCreater.sln" in Visual Studio.
