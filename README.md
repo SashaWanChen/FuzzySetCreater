@@ -19,4 +19,4 @@ Following fuzzy sets can be create in the Universe:
 # Run
 Download the file and open "FuzzySetCreater.sln" in Visual Studio.
 # Auther
-Sasha Chen < enlen111408@gmail.com>
+Wan-Chen Chen < enlen111408@gmail.com>
